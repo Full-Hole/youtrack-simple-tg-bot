@@ -1,6 +1,6 @@
 const http = require('@jetbrains/youtrack-scripting-api/http');
-const token = '*';
-const chatid = '*';
+const token = '*'; //Тут нужен токен для работы
+const chatid = '*'; //Тут нужен id чата
 const URL = 'https://api.telegram.org/bot';
 const APIURL = URL + token;
 
